@@ -26,6 +26,7 @@ def create_random_picks(sourcepath,num_subject,num_images):
 
     # create subject_id to index mapping
     for idx,item in enumerate(loaded_txt):
+        # Getting the subject id here - be careful here and it depends on your dataset labeling
         subject_id = item.split("/")[-1][:9]
         subject_array[idx][0] = subject_id
         subject_array[idx][1] = idx
