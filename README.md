@@ -95,5 +95,6 @@ python3 codes/delta_dprim_compute.py \
 -a2 ../match/gender_balanced/all/C_F/CF_authentic.npy -i2 ../match/gender_balanced/all/C_F/CF_impostor.npy -l2 C_F \
 ~~~
 
+Note that Vítor Albiero's repo the plotting is done differently. A modified .py file to plot the impostor and genuine curves exactly as shown in the paper can be found in codes folder
 
 
