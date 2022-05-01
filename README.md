@@ -88,4 +88,12 @@ Based on this example usage, 1000 txtfiles of C_M with 178 subjects and 344 dist
 
 The dprime calculations can be done shown below:
 
+Example usage:
+~~~bash
+python3 codes/delta_dprim_compute.py \
+-a1 ../match/gender_balanced/all/C_M/CM_authentic.npy -i1 ../match/gender_balanced/all/C_M/CM_impostor.npy -l1 C_M \
+-a2 ../match/gender_balanced/all/C_F/CF_authentic.npy -i2 ../match/gender_balanced/all/C_F/CF_impostor.npy -l2 C_F \
+~~~
+
+
 
