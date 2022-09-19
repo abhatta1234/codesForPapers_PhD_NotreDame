@@ -1,0 +1,20 @@
+python3 bisenet_parsing.py -s ../BiSeNet/C_M/ -d ../BiSeNet/hair_ratio/ -n C_M_hair_ratio
+
+python3 hair_attribute_compilation.py -amzn ../Amazon/C_M/ -msft ../MSFace/API/C_M/ -bise ../BiSeNet/hair_ratio/C_M_hair_ratio.txt -dest ../attribute_list/ -n C_M_attribute_list
+python3 hair_attribute_compilation.py -amzn ../Amazon/C_F/ -msft ../MSFace/API/C_F/ -bise ../BiSeNet/hair_ratio/C_F_hair_ratio.txt -dest ../attribute_list/ -n C_F_attribute_list
+
+C_M_not_visible_face = 33
+C_F_not_visible_face = 22
+
+
+#Indoor Subset:
+C_M = Sub : 687, Images: 7003
+C_F = Sub : 575, Images: 5444
+
+/afs/crc.nd.edu/user/a/abhatta/Datasets/nd_v4_img2pose_cropped
+
+Final Results:
+
+Male : images = 436, subjects= 213
+Female: images = 436, subjects = 174
+
